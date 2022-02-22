@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grade Calculator</title>
+    <!-- link for font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/index.css" />
+  </head>
+  <body>
+    <!-- main html -->
+    <div class="container">
+      <h1>Student Grade Calculator</h1>
+      <div class="screen-body-item">
+        <div class="cal">
+          <div class="input-sec">
+            <!-- option for taking the input -->
+            <input
+              type="number"
+              class="form-control"
+              placeholder="CHEMISTRY"
+              id="chemistry"
+            />
+          </div>
+          <div class="input-sec">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="URDU"
+              id="urdu"
+            />
+          </div>
+          <div class="input-sec">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="MATHS"
+              id="maths"
+            />
+          </div>
+          <div class="input-sec">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="PHYSICS"
+              id="phy"
+            />
+          </div>
+          <div class="input-sec">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="ISLAMIYAT"
+              id="islamic"
+            />
+          </div>
+          <div class="input-sec">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="PST"
+              id="pst"
+            />
+          </div>
+
+          <div>
+            <input
+              type="button"
+              value="Percentage"
+              class="form-button"
+              onclick="calculate()"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- for showing the result-->
+      <div class="input-sec showdata">
+        <p id="showdata"></p>
+      </div>
+    </div>
+    <!--adding external javascript file-->
+    <script src="./JS/index.js"></script>
+  </body>
+</html>

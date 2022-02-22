@@ -1,0 +1,174 @@
+/* 1ST BOX CSS */
+.box {
+  margin: 5px;
+  /* border: black 4px solid; */
+  height: auto;
+}
+.box h2 {
+  text-align: center;
+  font-size: 26px;
+  color: #535b7c;
+}
+.box p {
+  text-align: center;
+  font-size: 16px;
+  color: #959baf;
+}
+/* SERVICE GRID CSS */
+.servicegrid {
+  /* border: 3px solid deepskyblue; */
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  /* overflow: auto; */
+  justify-content: center;
+}
+/* APPS CSS  */
+.apps {
+  text-align: center;
+  border: 6px solid darkblue;
+  height: auto;
+  margin: 4px;
+  padding: 3px;
+  background-color: white;
+}
+
+.fa-desktop {
+  font-size: 40px;
+  padding: 4px;
+  color: #535b7c;
+}
+.apps h3 {
+  color: #535b7c;
+}
+/* BUSINESS CSS */
+.business {
+  text-align: center;
+  border: 6px solid darkblue;
+  height: auto;
+  margin: 4px;
+  padding: 3px;
+  background-color: white;
+}
+
+.fa-cogs {
+  font-size: 40px;
+  padding: 4px;
+  color: #535b7c;
+}
+.business h3 {
+  color: #535b7c;
+}
+/* WEB CSS */
+.web {
+  text-align: center;
+  border: 6px solid darkblue;
+  height: auto;
+  margin: 4px;
+  padding: 3px;
+  background-color: white;
+}
+.fa-globe {
+  font-size: 40px;
+  padding: 4px;
+  color: #535b7c;
+}
+.web h3 {
+  color: #535b7c;
+}
+/* DETAILS BUTTON */
+.detbutton {
+  background: linear-gradient(135deg, #f6575e 100%, #ff6666 0%);
+  border: none;
+  padding: 10px 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.detbutton a {
+  text-decoration: none;
+  color: white;
+}
+/* 2ND BOX CSS */
+.box2 {
+  background-color: white;
+  /* border: 1px solid black; */
+  height: auto;
+}
+.head {
+  text-align: center;
+  color: #535b7c;
+  margin: 2%;
+}
+.button {
+  flex: 100%;
+  color: white;
+  padding-left: 5%;
+  margin: 2%;
+}
+.button2 {
+  flex: 100%;
+  order: 3;
+  color: white;
+  padding-left: 5%;
+  margin: 2%;
+}
+/* INDUSTRY CSS */
+.industry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.industry p {
+  flex: 50%;
+  margin: 5%;
+  color: #959baf;
+}
+/* CUSTOMERS CSS */
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.customers p {
+  flex: 50%;
+  margin: 5%;
+  order: 2;
+  color: #959baf;
+}
+/* OUTRO CSS */
+.outro {
+  background: linear-gradient(135deg, #f6575e 100%, #ff6666 0%);
+  height: 400px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.outro h2 {
+  margin: 6px;
+  flex: 100%;
+}
+.outro p {
+  margin: 6px;
+  flex: 100%;
+}
+.outro img {
+  margin: 6px;
+  flex: 100%;
+}
+/* TRAIL CSS */
+.trial {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+  /* border: 2px solid black; */
+}

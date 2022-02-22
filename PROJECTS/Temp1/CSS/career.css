@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #f8fbfe;
+  font-family: Open Sans, Arial, sans-serif;
+}
+/* HEADER CSS */
+.header {
+  display: flex;
+  height: 100%;
+  /* border: 4px solid black; */
+  flex-wrap: wrap;
+}
+.logo {
+  width: 13%;
+  filter: invert(44%) sepia(31%) saturate(5912%) hue-rotate(329deg)
+    brightness(106%) contrast(93%);
+}
+.header h1 {
+  order: 2;
+  align-self: center;
+  font-size: 7vw;
+}
+/* NAVBAR CSS */
+.navbar {
+  width: auto;
+}
+.navcontent {
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  height: 100px;
+  align-items: center;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.navcontent li {
+  flex: 1;
+}
+.navcontent a {
+  text-decoration: none;
+  color: black;
+}
+.navcontent a:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #f6575e;
+}
+/* INTRO CSS */
+.intro {
+  background: linear-gradient(135deg, #f6575e 100%, #ff6666 0%);
+  height: 400px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.intro h2 {
+  margin: 6px;
+  flex: 100%;
+}
+.intro p {
+  margin: 6px;
+  flex: 100%;
+}
+.intro img {
+  margin: 6px;
+  flex: 100%;
+}
+/* FOOTER CSS */
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 250px;
+  background-color: #222222;
+}
+.footer h4 {
+  color: #f6575e;
+}
+.footer li {
+  margin: 5px;
+  list-style: none;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer-bottom {
+  height: auto;
+  /* border: black solid 2px; */
+  /* background-color: rgba(0, 0, 0, 0.32); */
+  background-color: #222222;
+}
+.copyright {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+.list-form5 {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.social-icons {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+.social-icons a {
+  text-decoration: none;
+  color: #666;
+  font-size: 20px;
+}

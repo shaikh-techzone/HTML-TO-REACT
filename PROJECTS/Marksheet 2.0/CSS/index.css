@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  background-image: url(../IMG/paul-green-mln2ExJIkfc-unsplash.jpg);
+  background-repeat: no-repeat;
+}
+.header {
+  text-align: center;
+  color: white;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  color: white;
+  border: 1px solid blanchedalmond;
+}
+.first-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 4px;
+  padding: 4px;
+}
+td {
+  border: 2px blue solid;
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.input-sub {
+  border: 2px blue solid;
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+/* #error{
+    color: red;
+}
+#per #grade{
+    color: blue ;
+}
+#btn{
+    color: green ;
+} */
+.btn {
+  text-align: center;
+}

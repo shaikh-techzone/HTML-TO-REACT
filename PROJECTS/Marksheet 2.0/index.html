@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <title>MarkSheet</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1>MARKSHEET</h1>
+      </div>
+      <div class="table">
+        <table>
+          <tr class="first-row">
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td>Biology</td>
+            <td>Computer</td>
+            <td>Urdu</td>
+            <td>English</td>
+            <td>Islamiat</td>
+            <td>Pak.Studies</td>
+          </tr>
+          <tr class="first-row">
+            <td>
+              <input
+                type="number"
+                placeholder="Mathematics"
+                id="Mathematics"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="Physics"
+                id="Physics"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="Chemistry"
+                id="Chemistry"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="Biology"
+                id="Biology"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="Computer"
+                id="Computer"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="Urdu"
+                id="Urdu"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="English"
+                id="English"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="Islamiat"
+                id="Islamiat"
+                class="input-sub"
+              />
+            </td>
+            <td>
+              <input
+                type="number"
+                placeholder="PST"
+                id="PST"
+                class="input-sub"
+              />
+            </td>
+          </tr>
+          <tr class="first-row">
+            <td style="width: 36.8rem"><p>Obtained Marks</p></td>
+            <td style="width: 37rem"><p id="total"></p></td>
+          </tr>
+          <tr class="first-row">
+            <td style="width: 36.8rem"><p>Percentage</p></td>
+            <td style="width: 37rem"><p id="per"></p></td>
+          </tr>
+          <tr class="first-row">
+            <td style="width: 36.8rem"><p>Grade</p></td>
+            <td style="width: 37rem"><p id="grade"></p></td>
+          </tr>
+          <tr class="first-row">
+            <td style="width: 36.8rem"><p>Remarks</p></td>
+            <td style="width: 37rem"><p id="remarks"></p></td>
+          </tr>
+          <tr class="first-row">
+            <td class="btn">
+              <input
+                class="input-sub"
+                type="button"
+                id="btn"
+                value="RESULT"
+                onclick="calculate()"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <table style="margin: 15px; padding: 15px; color: white">
+        <tr class="first-row">
+          <th>Subjects</th>
+          <th>Total Marks</th>
+        </tr>
+        <tr class="first-row">
+          <td>Mathematics</td>
+          <td>100</td>
+        </tr>
+        <tr class="first-row">
+          <td>Physics</td>
+          <td>100</td>
+        </tr>
+        <tr class="first-row">
+          <td>Chemistry</td>
+          <td>100</td>
+        </tr>
+        <tr class="first-row">
+          <td>Biology</td>
+          <td>100</td>
+        </tr>
+        <tr class="first-row">
+          <td>Computer</td>
+          <td>100</td>
+        </tr>
+        <tr class="first-row">
+          <td>Urdu</td>
+          <td>100</td>
+        </tr>
+        <tr class="first-row">
+          <td>English</td>
+          <td>100</td>
+        </tr>
+        <tr class="first-row">
+          <td>Islamiat</td>
+          <td>50</td>
+        </tr>
+        <tr class="first-row">
+          <td>Pak.Studies</td>
+          <td>50</td>
+        </tr>
+      </table>
+    </div>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    color: rgb(0, 76, 255);
+    font-weight: bolder;
+}
+.pricing{
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: larger;
+}
+input{ 
+    height: 25px;
+}
+button{
+    height: 25px;
+    width: 8rem;
+}
