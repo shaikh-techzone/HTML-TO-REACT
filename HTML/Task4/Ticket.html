@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Ticket</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Complaint Management System</h1>
+    <table>
+        <tr>
+            <td valign="top">
+                <h1 style="display:none">Open a New Ticket</h1>
+                <p>Please fill in the form below to open a new ticket.</p>
+                <form >
+                    <table width="800"  >
+                        <tbody>
+                            <tr>
+                                <td >
+                                    <div >
+                                        <h3>Contact Information</h3>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  >
+                                    <label>
+                                        <span >
+                                            Full Name                            
+                                            <span style="color: red;">*</span>
+                                        </span>            
+                                        <br/>
+                                    
+                                        <input type="text" size="60" maxlength="50" placeholder=""  required/>
+                                    </label>            
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <label >
+                                        <span>Mobile/Phone Number 
+                                            <span style="color: red;">*</span>
+                                        </span>  
+                                        <br/>
+                                    
+                                        <input type="tel"  size="60" maxlength="13" placeholder="" required/>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <label >
+                                        <span> Email Address 
+                                            <span style="color: red;">*</span>
+                                        </span> 
+                                        <br/>
+                                
+                                    <input type="email" size="60" maxlength="50" placeholder="" required/>
+                                    </label>            
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table width="800"  >
+                        <tbody>
+                            <tr>
+                                <td >
+                                    <div >
+                                        <h3>Ticket Details</h3>
+                                        <p>Please Describe Your Issue</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  >
+                                    <label>
+                                        <span >
+                                            Complaint Type                            
+                                        </span>            
+                                        <br/>
+                                        <select style="text-align: center ;">
+                                            <option value="--SELECT--">--SELECT--</option>
+                                            <option value="General complaint">General complaint</option>
+                                            <option value="Against NADRA Centre">Against NADRA Centre</option>
+                                            <option value="Against NADRA Official">Against NADRA Official</option>
+                                        </select>
+                                    </label>            
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <label >
+                                        <span>Tracking ID </span>  
+                                        <br/>
+                                    
+                                        <input type="text"  size="60" maxlength="12" placeholder="Please enter 12 digit token number" />
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <label >
+                                        <span> NIC No. </span> 
+                                        <br/>
+                                
+                                    <input type="text" size="60" maxlength="14" placeholder="Please enter your NIC number"/>
+                                    </label>            
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <label >
+                                        <span> Subject 
+                                            <span style="color: red;">*</span>
+                                        </span> 
+                                        <br/>
+                                
+                                    <input type="text" size="60" maxlength="30"/>
+                                    </label>            
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td >
+                                    <textarea type="text" rows="10" cols="80" size="60" maxlength="200" placeholder="Details on the reason(s) for opening the ticket" ></textarea>          
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td >
+                                    Drop files here or <input type="file" >
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td >
+                                    <button>Create Ticket</button>
+                                    <button>Reset</button>
+                                    <button>Cancel</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
