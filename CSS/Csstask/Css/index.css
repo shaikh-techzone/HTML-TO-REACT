@@ -1,0 +1,203 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+body {
+  background-color: #3248a8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  text-align: center;
+  /* border: oldlace solid 1px; */
+  height: 50px;
+}
+.menu {
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+.menu i {
+  position: absolute;
+  right: 4%;
+  font-size: xx-large;
+}
+input nav {
+  display: none;
+}
+input:checked nav {
+  display: block;
+}
+nav {
+  height: 70px;
+  /* border: oldlace solid 1px; */
+  position: sticky;
+  top: 0%;
+  color: antiquewhite;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  margin: 8px;
+  position: absolute;
+  left: 28%;
+}
+li {
+  float: left;
+  padding-left: 35px;
+  margin-top: 20px;
+}
+li:hover {
+  color: red;
+  font-size: larger;
+}
+.mainmenu {
+  float: right;
+}
+/* section {
+  border: oldlace solid 1px;
+} */
+.service {
+  text-align: center;
+  height: 60px;
+}
+/* web styles */
+.web {
+  border: oldlace solid 1px;
+  position: relative;
+  height: 300px;
+}
+.web h3 {
+  text-align: center;
+  margin: 5px;
+}
+.web img {
+  margin: 4px;
+}
+.web p {
+  position: absolute;
+  top: 37%;
+  left: 32%;
+}
+/* design styles */
+.design {
+  border: oldlace solid 1px;
+  position: relative;
+  height: 300px;
+}
+.design h3 {
+  text-align: center;
+  margin: 5px;
+}
+.design img {
+  margin: 4px;
+  float: right;
+}
+.design p {
+  position: absolute;
+  right: 32%;
+  top: 37%;
+  left: 2%;
+}
+/* digital styles */
+.digital {
+  border: oldlace solid 1px;
+  position: relative;
+  height: 300px;
+}
+.digital h3 {
+  text-align: center;
+  margin: 5px;
+}
+.digital img {
+  margin: 4px;
+}
+.digital p {
+  position: absolute;
+  top: 37%;
+  left: 32%;
+}
+.section2 {
+  height: 539px;
+  position: relative;
+  height: 539px;
+  position: relative;
+  width: 1250px;
+}
+/* autocad styles */
+.autocad {
+  width: 30%;
+  height: 450px;
+  border: solid azure 1px;
+  position: absolute;
+  left: 1%;
+  top: 12.5%;
+}
+.autocad img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.autocad h3 {
+  text-align: center;
+  margin: 5px;
+}
+.autocad p {
+  text-align: center;
+  margin: 8px;
+}
+/* UI design styles */
+.uidesign {
+  width: 30%;
+  height: 450px;
+  border: solid azure 1px;
+  position: absolute;
+  left: 36%;
+  top: 12.5%;
+}
+.uidesign img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.uidesign h3 {
+  text-align: center;
+  margin: 5px;
+}
+.uidesign p {
+  text-align: center;
+  margin: 8px;
+}
+/* data analysis styles */
+.data {
+  width: 30%;
+  height: 450px;
+  border: solid azure 1px;
+  position: absolute;
+  left: 71%;
+  top: 12.5%;
+}
+.data h3 {
+  text-align: center;
+  margin: 5px;
+}
+.data img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.data p {
+  text-align: center;
+  margin: 8px;
+}
+footer {
+  height: 60px;
+  margin: 12px;
+  text-align: center;
+  padding: 2px;
+}
+footer p {
+  margin: 5px;
+}

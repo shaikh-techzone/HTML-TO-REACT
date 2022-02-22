@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Cards on Hover</title>
+    <style>
+        /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+        .parent {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .child {
+            background-color: #f1f1f1;
+            box-shadow: -3px -3px 10px 1px black;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            height: 250px;
+            width: 250px;
+            overflow: hidden;
+        }
+
+        .details {
+            position: relative;
+            /* top: -150px; */
+            top: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            width: 250px;
+            padding: 10px 0px 10px 0px;
+            transition: 1s;
+        }
+
+        .child:hover .details {
+            top: -150px;
+        }
+
+        img {
+            transition: 1s;
+            transition-property: transform;
+        }
+
+        .child:hover img {
+            transform: scale(2, 1.5);
+        }
+
+
+        /* 
+    scale size height,width
+    rotate 
+    translate margin 
+    skew 
+    */
+
+        .transformBox {
+            height: 300px;
+            width: 300px;
+            background-color: aquamarine;
+
+
+        }
+
+        .inner-transformBox {
+            visibility: hidden;
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            transition: 2s;
+
+
+        }
+
+        .transformBox:hover .inner-transformBox {
+            visibility: visible;
+            transform: translateX(90px) translateY(90px) rotate(180deg);
+
+
+        }
+
+        /* 
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 50px;
+}
+.inner-circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+} */
+    </style>
+</head>
+
+<body>
+
+
+    <div class="parent">
+
+
+        <div class="child">
+            <img height="250" width="250"
+                src="https://media.istockphoto.com/photos/asian-chinese-beautiful-woman-receiving-unpacking-trying-on-her-from-picture-id1304921920?b=1&k=20&m=1304921920&s=170667a&w=0&h=WKDDM3g6Y_mhwzh1p7-vvFneeqKSZHLQ0a47MlpH3Bg="
+                alt="">
+            <div class="details">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, magni!</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="child">
+            <img height="250" width="250"
+                src="https://media.istockphoto.com/photos/asian-chinese-beautiful-woman-receiving-unpacking-trying-on-her-from-picture-id1304921920?b=1&k=20&m=1304921920&s=170667a&w=0&h=WKDDM3g6Y_mhwzh1p7-vvFneeqKSZHLQ0a47MlpH3Bg="
+                alt="">
+            <div class="details">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, magni!</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="child">
+            <img height="250" width="250"
+                src="https://media.istockphoto.com/photos/asian-chinese-beautiful-woman-receiving-unpacking-trying-on-her-from-picture-id1304921920?b=1&k=20&m=1304921920&s=170667a&w=0&h=WKDDM3g6Y_mhwzh1p7-vvFneeqKSZHLQ0a47MlpH3Bg="
+                alt="">
+            <div class="details">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, magni!</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+        <div class="child">
+            <img height="250" width="250"
+                src="https://media.istockphoto.com/photos/asian-chinese-beautiful-woman-receiving-unpacking-trying-on-her-from-picture-id1304921920?b=1&k=20&m=1304921920&s=170667a&w=0&h=WKDDM3g6Y_mhwzh1p7-vvFneeqKSZHLQ0a47MlpH3Bg="
+                alt="">
+            <div class="details">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, magni!</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="transformBox">
+        <div class="inner-transformBox"></div>
+    </div>
+
+
+    <div class="circle">
+        <div class="inner-circle">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
