@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>16-02-22</title>
+  </head>
+
+  <body>
+    <script>
+      // 1st example
+
+      // let arr = new Array(5);
+      // for(let i = 0 ; i<arr.length; i++){
+      //     arr[i]= Number(prompt("Enter number"));
+      // }
+
+      // for(let j = 0; j<arr.length ; j++){
+      //     document.writeln(arr[j])
+      // }
+
+      // 2nd example
+
+      // let arr = new Array(5);
+      // let sum = 0;
+      // for(let i = 0 ; i<arr.length; i++){
+      //     arr[i]= Number(prompt("Enter number"));
+      //     sum += arr[i];
+      // }
+      // document.writeln(sum);
+
+      // 3rd example
+
+      //   var arr = new Array(3);
+      //   var sum = 0;
+      //   for (var i = 0; i < arr.length; i++) {
+      //     arr[i] = Number(prompt("enter number"));
+      //     sum = sum + arr[i];
+      //   }
+      //   var per = (sum * 100) / 300;
+
+      //   document.writeln(per);
+
+      //   if (per > 40 && per < 50) {
+      //     document.writeln("D");
+      //   } else if (per > 50 && per < 60) {
+      //     document.writeln("C");
+      //   } else if (per > 60 && per < 70) {
+      //     document.writeln("B");
+      //   } else if (per > 70 && per < 80) {
+      //     document.writeln("A");
+      //   } else if (per > 80 && per < 90) {
+      //     document.writeln("A+");
+      //   } else {
+      //     document.writeln("F");
+      //   }
+
+      // 4th example
+
+      // function Jarvis(){
+      //     alert("Welcome Sir, This is Jarvis ")
+      // }
+
+      // function Friday(){
+      //     alert("Welcome Sir, This is Friday ")
+      // }
+
+      // function Shaikh(){
+      //     alert("Welcome Sir, This is Shaikh ")
+      // }
+
+      // function Doomsday(){
+      //     alert("Welcome Sir, This is Doomsday ")
+      // }
+
+      // 5th example
+
+      function add() {
+        let num1 = Number(document.getElementById("t1").value);
+        let num2 = Number(document.getElementById("t2").value);
+
+        let num3 = num1 + num2;
+
+        document.getElementById("t3").value = num3;
+      }
+
+      function sub() {
+        let num1 = Number(document.getElementById("t1").value);
+        let num2 = Number(document.getElementById("t2").value);
+
+        let num3 = num1 - num2;
+
+        document.getElementById("t3").value = num3;
+      }
+
+      function mul() {
+        let num1 = Number(document.getElementById("t1").value);
+        let num2 = Number(document.getElementById("t2").value);
+
+        let num3 = num1 * num2;
+
+        document.getElementById("t3").value = num3;
+      }
+
+      function div() {
+        let num1 = Number(document.getElementById("t1").value);
+        let num2 = Number(document.getElementById("t2").value);
+
+        let num3 = num1 / num2;
+
+        document.getElementById("t3").value = num3;
+      }
+    </script>
+    <!-- <div>
+      <input type="button" value="Jarvis" onclick="Jarvis()" />
+      <input type="button" value="Friday" onclick="Friday()" />
+      <input type="button" value="Shaikh" onclick="Shaikh()" />
+      <input type="button" value="Doomsday" onclick="Doomsday()" />
+    </div> -->
+
+    <div>
+      <p>Number1</p>
+      <input type="text" id="t1" />
+      <p>Number2</p>
+      <input type="text" id="t2" />
+      <p>Result</p>
+      <input type="text" id="t3" />
+      <input type="button" value="Addition" onclick="add()" />
+      <input type="button" value="Subtract" onclick="sub()" />
+      <input type="button" value="Multiply" onclick="mul()" />
+      <input type="button" value="Divide" onclick="div()" />
+    </div>
+  </body>
+</html>

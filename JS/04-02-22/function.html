@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <center>
+    <h3>math</h3>
+    <input type="text" id="math">
+    <h3>urdu</h3>
+    <input type="text" id="urdu">
+    <h3>eng</h3>
+    <input type="text" id="eng">
+    <!-- <h4>result</h4> -->
+    <!-- <input type="text" id="result"> -->
+    <input type="button" value="callme" onclick="call()"> 
+</center>
+    <script>
+        function call(){
+            var math =document.getElementById("math").value;
+            var urdu =document.getElementById("urdu").value;
+            var eng = document.getElementById("eng").value;
+            
+            var result=parseInt(math)+parseInt(urdu)+parseInt(eng);
+            document.writeln(result)
+            var per=(result*100) /300;
+            document.write(per)
+            // document.getElementById("result").value;
+        }
+    </script>
+</body>
+</html>

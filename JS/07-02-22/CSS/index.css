@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url(../IMG/paul-green-mln2ExJIkfc-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+.header{
+    text-align: center;
+    color: white;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+td{
+    border: 2px blue solid;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+input{
+    border: 2px black solid;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+}
+/* #error{
+    color: red;
+}
+#per #grade{
+    color: blue ;
+}
+#btn{
+    color: green ;
+} */
+.btn{
+    text-align: center;
+}
